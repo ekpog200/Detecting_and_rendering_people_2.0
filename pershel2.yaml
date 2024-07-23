@@ -1,6 +1,9 @@
-train: 'D:\Detecting_and_rendering_people_2.0\tun_and_rec\datasets\saf_h_d\css-data\train\images'
-val: 'D:\Detecting_and_rendering_people_2.0\tun_and_rec\datasets\saf_h_d\css-data\valid'
-test: 'D:\Detecting_and_rendering_people_2.0\tun_and_rec\datasets\saf_h_d\css-data\test\images'
+# train: 'D:\Detecting_and_rendering_people_2.0\tun_and_rec\datasets\saf_h_d\saf_h_d\css-data\train\images'
+# val: 'D:\Detecting_and_rendering_people_2.0\tun_and_rec\datasets\saf_h_d\saf_h_d\css-data\valid\images'
+# test: 'D:\Detecting_and_rendering_people_2.0\tun_and_rec\datasets\saf_h_d\css-data\test\images'
+train: 'D:\Detecting_and_rendering_people_2.0\tun_and_rec\datasets\my_own_dataset\train\images'
+val: 'D:\Detecting_and_rendering_people_2.0\tun_and_rec\datasets\my_own_dataset\valid\images'
+test: 'D:\Detecting_and_rendering_people_2.0\tun_and_rec\datasets\my_own_dataset\test\images'
 
-nc: 10  # количество классов (человек и каска)
-names: ['Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person', 'Safety Cone', 'Safety Vest', 'machinery', 'vehicle']
+nc: 2  # количество классов (человек и каска)
+names: ['person','Hardhat']
